@@ -19,15 +19,16 @@
 # 적용 기술 및 구현 기능
 ## 적용 기술
 - Front-End : React.js, sass
-- Back-End : Node.js, Express.js, Bcrypt, My SQL
+- Back-End : Node.js, Express.js, Bcrypt, My SQL, Nodemailer
 - Common : RESTful API <br>
 
   
 ## 구현 기능
 ### 👩‍💻 user
--
--
--
+- 회원가입 필수 입력사항을 받아 유저로 등록
+- 로그인 시 가입된 유저인지 체크 후 토큰 발급
+- 아이디 찾기 시 입력된 정보와 동일한 유저가 있는지 체크 후 결과 반환
+- 비밀번호 찾기 시 가입되어있는 이메일 주소로 임시 비밀번호 발급
 ### 🎁 product
 -
 -
